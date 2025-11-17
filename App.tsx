@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import AnnouncementBar from './components/AnnouncementBar';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import SocialProof from './components/SocialProof';
 import Method from './components/Method';
 import AboutUs from './components/AboutUs';
 import Infoproduct from './components/Infoproduct';
@@ -40,7 +39,6 @@ const App: React.FC = () => {
       <Navbar />
       <main>
         <Hero />
-        <SocialProof />
         <Method />
         <AboutUs />
         <Infoproduct />
